@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
 body {
     background: #1b1b1b;
+    font-family: 'Inter', sans-serif;
 }
 
 button {
@@ -20,6 +21,8 @@ button {
     background: transparent;
     color: white;
     transition: all 0.5s ease;
+    font-family: 'Inter', sans-serif;
+
     &:hover{
         background-image: linear-gradient(120deg, #23d997 0%, #23d9c1 100%);
     }
