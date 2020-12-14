@@ -14,14 +14,16 @@ body {
 
 button {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
     padding: 1rem 2rem;
     border: 3px solid #23d997;
+    border-radius: 0.3rem;
     background: transparent;
     color: white;
     transition: all 0.5s ease;
     font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
 
     &:hover{
         background-image: linear-gradient(120deg, #23d997 0%, #23d9c1 100%);
