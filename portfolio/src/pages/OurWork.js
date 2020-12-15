@@ -11,21 +11,21 @@ const OurWork = () => {
       <Movie>
         <h2>The Athlete</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/work/the-athlete">
           <img src={athlete} alt="athlete" />
         </Link>
       </Movie>
       <Movie>
         <h2>The Racer</h2>
         <div className="line"></div>
-        <Link>
-          <img src={theracer} alt="theracer" />
+        <Link to="/work/the-racer">
+          <img src={theracer} alt="racer" />
         </Link>
       </Movie>
       <Movie>
         <h2>Good Times</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/work/good-times">
           <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
@@ -46,8 +46,7 @@ const Movie = styled.div`
   padding-bottom: 10rem;
   .line {
     background-image: linear-gradient(120deg, #23d997 0%, #23d9c1 100%);
-
-    height: 0.2rem;
+    height: 0.5rem;
     margin-bottom: 3rem;
     width: 100%;
   }
