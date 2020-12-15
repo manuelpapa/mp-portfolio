@@ -55,7 +55,7 @@ const Faq = styled(Layout)`
   }
   .faq-line {
     background: #cccccc;
-    height: 0.2rem;
+    height: 0.5rem;
     margin: 2rem 0;
     width: 100%;
   }
